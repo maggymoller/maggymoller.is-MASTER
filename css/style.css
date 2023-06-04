@@ -10039,3 +10039,19 @@ a {
               left: 100;
               padding: 25px;
             }
+
+
+
+            @media (max-width: 768px) {
+              .home {
+                background: url("/images/") no-repeat center;
+              }
+            }
+            
+            /* Media query for even smaller screens */
+            
+            @media (max-width: 480px) {
+              .home {
+                background: url("/images/bannermaggyminnkad.jpg") no-repeat center;
+              }
+            }
