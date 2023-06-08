@@ -30933,6 +30933,7 @@ line-height: 180%;
   font-size: 9px;
   text-transform: uppercase;
   letter-spacing: .2em; 
+  
   padding-left: 100px;
   padding-right: 100px; 
   
@@ -30975,6 +30976,15 @@ line-height: 180%;
 
 }
 
+
+
+.media-1:hover .media-1-content {
+  opacity: 1;
+  visibility: visible;
+  bottom: 0px;
+  transition-delay: 0.09s;
+  padding: 30px; /* Adjust the padding value to increase the size of the box */
+}
 .image-logo {
   height: 150px; /* Adjust the height value as needed */
   object-fit: cover; /* Maintain aspect ratio and cover the container */
