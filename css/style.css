@@ -61,7 +61,7 @@ li:active {
 }
  .home {
   display: flex;
-    background: url("/images/bannermaggy2svart.png") no-repeat center;
+    background: url("/images/Húsgagnaviðgerðir/bannerteiknuðmynd.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -111,7 +111,7 @@ li:active {
 /* HomeMedia */
 .homeMedia {
   display: flex;
-    background: url("/images/bannermaggy2.png") no-repeat center;
+    background: url("/images/Húsgagnaviðgerðir/bannerteiknuðmynd.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -30874,7 +30874,7 @@ line-height: 180%;
 }
 
 .youtube-thumbnail {
-  width: 100%;
+  width: auto%;
   height: auto;
   filter: grayscale(100%);
   transition: filter 0.3s ease;
@@ -30896,6 +30896,28 @@ line-height: 180%;
 }
 
 .video-container {
+  /* position: relative; */
+  /* padding-top: 56.25%; 16:9 aspect ratio */
+}
+.image-container {
   position: relative;
-  padding-top: 56.25%; /* 16:9 aspect ratio */
+  display: inline-block;
+}
+
+.image-hover {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image-container:hover .image {
+  display: none;
+}
+
+.image-container:hover .image-hover {
+  display: block;
+}
+.container-center {
+  text-align: center;
 }
