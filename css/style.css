@@ -30921,3 +30921,53 @@ line-height: 180%;
 .container-center {
   text-align: center;
 }
+.media-1 .media-1-content .category-2 {
+  position: relative;
+  -webkit-transition: .3s all ease-in-out;
+  -o-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+  opacity: 0;
+  bottom: -10px;
+  visibility: hidden;
+  color: #999999;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: .2em; }
+
+  .media-1:hover .category-2 {
+    opacity: 1;
+    visibility: visible;
+    bottom: 0px;
+    -webkit-transition-delay: 0.09s;
+    -o-transition-delay: 0.09s;
+    transition-delay: 0.09s; }
+
+    .hire-me--modal .form-controls .case-category-2 select,
+.hire-me--modal .form-controls .budget select {
+    padding: 11px 0 10px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+    border: 1px solid #aaa;
+}
+
+.category-2 {
+  font-size: 14px;
+  transition: .3s all ease-in-out;
+}
+
+.category-2:hover{
+  font-size: 16px;
+}
+
+.image-logo {
+  height: 100px;
+}
+
+.hire-me--modal .form-controls .case-categor-2y select,
+.hire-me--modal .form-controls .budget select {
+    padding: 11px 0 10px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+    border: 1px solid #aaa;
+}
+
