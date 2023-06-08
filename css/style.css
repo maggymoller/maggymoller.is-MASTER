@@ -30935,6 +30935,7 @@ line-height: 180%;
   letter-spacing: .2em; 
   padding-left: 50px;
   padding-right: 50px; 
+  
 
 }
 
@@ -30944,7 +30945,10 @@ line-height: 180%;
     bottom: 0px;
     -webkit-transition-delay: 0.09s;
     -o-transition-delay: 0.09s;
-    transition-delay: 0.09s; }
+    transition-delay: 0.09s; 
+    padding-left: 50px; /* Adjust the left margin as needed */
+  padding-right: 50px; /* Adjust the right margin as needed */
+  }
 
     .hire-me--modal .form-controls .case-category-2 select,
 .hire-me--modal .form-controls .budget select {
@@ -30952,20 +30956,32 @@ line-height: 180%;
     -webkit-appearance: none;
        -moz-appearance: none;
     border: 1px solid #aaa;
+    padding-left: 50px; /* Adjust the left margin as needed */
+    padding-right: 50px; /* Adjust the right margin as needed */
+  
 }
 
 .category-2 {
   font-size: 14px;
   transition: .3s all ease-in-out;
+  padding-left: 50px; /* Adjust the left margin as needed */
+  padding-right: 50px; /* Adjust the right margin as needed */
+
 }
 
 .category-2:hover{
   font-size: 16px;
+  padding-left: 50px; /* Adjust the left margin as needed */
+  padding-right: 50px; /* Adjust the right margin as needed */
+
 }
 
-.image-logo {
-  height: 100px;
+.image-logo img {
+  height: 150px; /* Adjust the height value as needed */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  width: 100px;
 }
+
 
 .hire-me--modal .form-controls .case-categor-2y select,
 .hire-me--modal .form-controls .budget select {
@@ -30973,6 +30989,9 @@ line-height: 180%;
     -webkit-appearance: none;
        -moz-appearance: none;
     border: 1px solid #aaa;
+    padding-left: 50px; /* Adjust the left margin as needed */
+    padding-right: 50px; /* Adjust the right margin as needed */
+  
 }
 
 
