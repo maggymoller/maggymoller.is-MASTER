@@ -30930,11 +30930,11 @@ line-height: 180%;
   bottom: -10px;
   visibility: hidden;
   color: #999999;
-  font-size: 14px;
+  font-size: 9px;
   text-transform: uppercase;
   letter-spacing: .2em; 
-  padding-left: 50px;
-  padding-right: 50px; 
+  padding-left: 100px;
+  padding-right: 100px; 
   
 
 }
@@ -30952,7 +30952,7 @@ line-height: 180%;
 
     .hire-me--modal .form-controls .case-category-2 select,
 .hire-me--modal .form-controls .budget select {
-    padding: 11px 0 10px;
+    padding: 18px 0 18px;
     -webkit-appearance: none;
        -moz-appearance: none;
     border: 1px solid #aaa;
@@ -30962,24 +30962,23 @@ line-height: 180%;
 }
 
 .category-2 {
-  font-size: 14px;
+  font-size: 9px;
   transition: .3s all ease-in-out;
   padding-left: 50px; /* Adjust the left margin as needed */
   padding-right: 50px; /* Adjust the right margin as needed */
-
 }
 
 .category-2:hover{
-  font-size: 16px;
+  font-size: 9px;
   padding-left: 50px; /* Adjust the left margin as needed */
   padding-right: 50px; /* Adjust the right margin as needed */
 
 }
 
-.image-logo img {
+.image-logo {
   height: 150px; /* Adjust the height value as needed */
   object-fit: cover; /* Maintain aspect ratio and cover the container */
-  width: 100px;
+  width: auto;
 }
 
 
