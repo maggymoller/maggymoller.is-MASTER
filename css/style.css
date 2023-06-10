@@ -61,7 +61,8 @@ li:active {
 }
  .home {
   display: flex;
-    background: url("/images/Húsgagnaviðgerðir/bannerteiknuðmynd.png") no-repeat center;
+    background: url("/images/FrontPageHeadSpraybottle.png") no-repeat center;
+    background-color: #060606;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -111,7 +112,7 @@ li:active {
 /* HomeMedia */
 .homeMedia {
   display: flex;
-    background: url("/images/Húsgagnaviðgerðir/bannerteiknuðmynd.png") no-repeat center;
+    background: url("/images/FrontPageHeadSpraybottle.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -253,8 +254,8 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
+  color: #060606;
+  background-color: #060606;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
@@ -665,8 +666,9 @@ progress {
     content: "\2014\00A0"; }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto; 
+  max-width: auto%;
+  height: 70%; 
+  background-color: #060606;
 }
   .img-fluid-2 {
     max-width: 100%;
@@ -6353,7 +6355,9 @@ textarea.form-control-lg {
   background-color: #dc3545 !important; }
 
 .bg-light {
-  background-color: #f8f9fa !important; }
+  background-color: #f8f9fa !important; 
+padding: 20px;
+}
 
 .bg-dark {
   background-color: #212529 !important; }
@@ -9028,7 +9032,7 @@ body {
   font-weight: 300;
   overflow-x: hidden;
   font-size: 16px;
-  color: #808080; }
+  color: #060606; }
 
   
 
@@ -10138,7 +10142,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: #060606;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -10339,7 +10343,7 @@ body {
 }
 
 body {
-    background: #f9f9f9;
+    background: #060606;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -12344,7 +12348,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: #060606;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
@@ -23435,7 +23439,7 @@ progress {
    font-weight: 400;
    line-height: 1.5;
    color: #212529;
-   background-color: #fff;
+   background-color: #060606;
    -webkit-text-size-adjust: 100%;
    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
  
@@ -27482,7 +27486,7 @@ body {
 }
 
 body {
-    background: #f9f9f9;
+    background: #060606;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -27579,7 +27583,7 @@ p:last-child {
 }
 
 .bg--img .section--title h2:after {
-    background-color: #fff;
+    background-color: #red;
 }
 
 /* 1.3. BACKGROUND IMAGE */
@@ -27602,7 +27606,7 @@ p:last-child {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #303030;
+    background-color: #060606;
     opacity: 0.8;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
     z-index: -1;
@@ -27768,7 +27772,7 @@ p:last-child {
     position: relative;
     padding: 18px 40px 20px;
     color: #fff;
-    background-color: #303030;
+    background-color: #060606;
 }
 
 .modal-header .close {
@@ -27880,7 +27884,7 @@ p:last-child {
 }
 
 body.scrolled .header--navbar {
-    background-color: #fff;
+    background-color: #060606;
     padding-top: 10px;
     box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
 }
@@ -27903,7 +27907,7 @@ body.scrolled .header--navbar {
 }
 
 .header--navbar .navbar-toggle .icon-bar {
-    background-color: #303030;
+    background-color: #060606;
 }
 
 /* 2.3. HEADER NAVBAR BRAND */
@@ -27941,7 +27945,7 @@ body.scrolled .header--navbar {
     bottom: 20px;
     width: 0;
     height: 1px;
-    background-color: #303030;
+    background-color: #060606;
     -webkit-transition: width .25s ease-in-out;
             transition: width .25s ease-in-out;
 }
@@ -28868,7 +28872,7 @@ body.scrolled .header--navbar {
     bottom: 5px;
     width: 200px;
     height: 1px;
-    background-color: #303030;
+    background-color: #060606;
 }
 
 .contact--address address {
@@ -28972,7 +28976,7 @@ body.scrolled .header--navbar {
 #subscribe {
     padding: 80px 0;
     color: #fff;
-    background-color: #303030;
+    background-color: #060606;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     text-align: center;
 }
@@ -29024,7 +29028,7 @@ body.scrolled .header--navbar {
 #footer {
     padding: 25px 0;
     color: #fff;
-    background-color: #303030;
+    background-color: #060606;
     text-align: center;
 }
 
@@ -29451,7 +29455,7 @@ html .resume{
 }
 body .resume{
   position: relative;
-  background-color: #f9f7f1;
+  background-color: #060606;
   width: 100%;
   height: 100%;
   // min-width: 1000px;
@@ -29937,7 +29941,7 @@ body .resume{
 }
 
 page[size="A4"] {
-  background-color: #f9f7f1;
+  background-color: #060606;
   width: 21cm;
   height: 29.7cm;
   display: block;
@@ -30214,7 +30218,7 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-  padding: 40px;
+  padding: 10px;
   margin-bottom: 20px;
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -30344,7 +30348,7 @@ background: none;
 
 /* footer section styling */
 footer{
-  background-color: #0e1323;
+  background-color: #060606;
   padding: 15px 23px;
   color: #fff;
   text-align: center;
@@ -30636,7 +30640,7 @@ blockquote_umsagnir
 .frame {
   flex: 3;
   padding: 20px;
-  background-color: #f1f1f1;
+  background-color: #060606;
   border: 1px solid #ccc;
 }
 
@@ -31013,3 +31017,77 @@ line-height: 180%;
   padding-right: 50px; /* Adjust the right margin as needed */
 }
 
+/* CSS from internet */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+.container-message {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+form .contactform {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px 0;
+}
+
+input,
+textarea,
+label {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  color: #828282;
+}
+
+input,
+textarea {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #828282;
+}
+
+input[type=submit] {
+  background-color: #545557;
+  padding: 15px 0;
+  color: white;
+  font-size: 18px;
+  border-bottom: none;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+input[type=submit]:hover {
+  background: #FFF;
+  color: #1b1c1e;
+}
+
+input,
+textarea {
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+
+input:focus,
+textarea:focus {
+  outline: 1px solid #828282;
+}
+
+
+
+a:hover {
+  color: #fff;
+}
+/* CSS from internet ends */
