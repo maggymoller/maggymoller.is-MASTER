@@ -18,22 +18,22 @@
     $email = $_POST['email'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];
-
+// 
     try {
       $mail->isSMTP();
       $mail->Host = 'mail.1984.is';
       $mail->SMTPAuth = true;
       // Gmail ID which you want to use as SMTP server
-      $mail->Username = 'maggymoller@maggymoller.is';
+      $mail->Username = 'maggy@maggymoller.is';
       // Gmail Password
-      $mail->Password = 'Covid192021!';
+      $mail->Password = 'Lykil0rd';
       $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
       $mail->Port = 587;
 
       // Email ID from which you want to send the email
-      $mail->setFrom('maggymoller@maggymoller.is');
+      $mail->setFrom('maggy@maggymoller.is');
       // Recipient Email ID where you want to receive emails
-      $mail->addAddress('maggymoller@maggymoller.is');
+      $mail->addAddress('maggy@maggymoller.is');
 
       $mail->isHTML(true);
       $mail->Subject = 'Form Submission';

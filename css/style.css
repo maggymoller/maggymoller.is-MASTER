@@ -30214,7 +30214,7 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-  padding: 10px;
+  padding: 40px;
   margin-bottom: 20px;
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -31012,3 +31012,4 @@ line-height: 180%;
   padding-left: 50px; /* Adjust the left margin as needed */
   padding-right: 50px; /* Adjust the right margin as needed */
 }
+
