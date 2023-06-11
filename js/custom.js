@@ -346,3 +346,21 @@ var typed = new Typed(".typewriter", {
 	loop: true,
 	loopDelay: 2000      // Decrease the delay between loops
   });
+  
+	var splide = new Splide( '#first-slider', {
+	  type:"slide",
+	  autoplay: 'pause',
+	  pagination: false,
+	  autoWidth: true,
+	  focus: 0,
+	  flickPower: 200,
+	  omitEnd: true,
+	  drag: true,
+	  perMove: 1,
+	  perPage: 1,
+	  gap: "40px",
+	  speed: 500,
+	  breakpoints: { 767: { gap:"30px" }}
+	} );
+	
+	splide.mount();
